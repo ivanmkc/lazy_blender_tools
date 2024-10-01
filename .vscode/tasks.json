@@ -4,7 +4,7 @@
     {
       "label": "Zip with Parent Folder",
       "type": "shell",
-      "command": "mkdir -p temp && cp -r ./* temp/ && zip -r lazy_tools.zip temp && rm -rf temp",
+      "command": "rm -rf temp && rm -f lazy_tools.zip && mkdir -p temp && cp -r ./* temp/ && zip -r lazy_tools.zip temp && rm -rf temp",
       "group": {
         "kind": "build",
         "isDefault": true
