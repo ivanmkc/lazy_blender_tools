@@ -1,5 +1,5 @@
 """
-File: wireframe_tool.py
+File: profiled_wireframe.py
 
 Description:
 This script is part of the LazyTools package, providing a customizable wireframe tool.
